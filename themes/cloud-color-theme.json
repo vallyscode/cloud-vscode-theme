@@ -37,11 +37,11 @@
 
 		"progressBar.background": "#008abd",
 
-		"titleBar.activeForeground": "#2f363d",
-		"titleBar.activeBackground": "#fff",
+		"titleBar.activeForeground": "#454545",
+		"titleBar.activeBackground": "#ffffff",
 		"titleBar.inactiveForeground": "#6a737d",
-		"titleBar.inactiveBackground": "#f6f8fa",
-		"titleBar.border": "#e1e4e8",
+		"titleBar.inactiveBackground": "#ffffff",
+		"titleBar.border": "#ffffff",
 
 		"activityBar.background": "#ffffff",
 		"activityBar.foreground": "#454545",
@@ -130,6 +130,7 @@
 		"editorIndentGuide.activeBackground": "#d7dbe0",
 		"editorWhitespace.foreground": "#d1d5da",
 		"editorCursor.foreground": "#00638a",
+		"editorCursor.background": "#ffffff",
 		"editor.findMatchBackground": "#fffbc4",
 		"editor.findMatchHighlightBackground": "#fffbc4",
 		"editor.inactiveSelectionBackground": "#3389ab28",
