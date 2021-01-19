@@ -1,0 +1,21 @@
+{
+    "name": "cloud-vscode-theme",
+    "displayName": "Cloud Theme",
+    "description": "Cloud theme for vscode",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cloud",
+                "uiTheme": "vs",
+                "path": "./themes/cloud-color-theme.json"
+            }
+        ]
+    }
+}
