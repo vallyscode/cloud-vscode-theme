@@ -3,6 +3,11 @@
     "displayName": "Cloud Theme",
     "description": "Cloud theme for vscode",
     "version": "0.0.1",
+    "publisher": "vlysenco",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vallyscode/cloud-vscode-theme.git"
+    },
     "engines": {
         "vscode": "^1.52.0"
     },
