@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.0.4]
+#### Changed
+- **html** and **css** tags color
+
 ## [0.0.3]
 ### Changed
 - Operator foreground from #777777 to #919aa1 
