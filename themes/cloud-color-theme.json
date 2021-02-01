@@ -143,14 +143,15 @@
 		"editor.wordHighlightStrongBorder": "#24943e50",
 		"editorBracketMatch.background": "#34d05840",
 		"editorBracketMatch.border": "#34d05800",
+		
 		"editorWidget.background": "#f1f1f1",
 		"editorWidget.border": "#454545",
-		"editorSuggestWidget.highlightForeground": "#008abd",
-		"editorSuggestWidget.selectedBackground": "#f1f1f1",
+		"editorSuggestWidget.highlightForeground": "#00638a",
+		"editorSuggestWidget.selectedBackground": "#ededed",
 		
-		"editorGutter.modifiedBackground": "#2188ff",
-		"editorGutter.addedBackground": "#28a745",
-		"editorGutter.deletedBackground": "#d73a49",
+		"editorGutter.modifiedBackground": "#bf7000",
+		"editorGutter.addedBackground": "#22863a",
+		"editorGutter.deletedBackground": "#d0372d",
 		
 		"diffEditor.insertedTextBackground": "#34d05822",
 		"diffEditor.removedTextBackground": "#d73a4922",

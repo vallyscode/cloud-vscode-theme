@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.0.5]
+#### Changed
+- suggest widget
+- editor gutter
+
 ## [0.0.4]
 #### Changed
 - **html** and **css** tags color
