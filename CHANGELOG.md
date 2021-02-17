@@ -1,5 +1,12 @@
 # Change Log
 
+## [0.0.6]
+#### CHanged
+- Settings page look
+- Matching text background
+- Terminal background, foreground, cursor
+- Git decoration for modified section
+
 ## [0.0.5]
 #### Changed
 - suggest widget
