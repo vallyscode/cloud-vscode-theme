@@ -1,5 +1,14 @@
 # Change Log
 
+## [0.0.7]
+#### Changed
+- Input foreground
+- Line highlight border now is the same as background
+- Code lense foreground
+- Find match border & backgound are now the same color
+- Word highlight is same as other highlight
+- Suggest widget selected background
+
 ## [0.0.6]
 #### CHanged
 - Settings page look

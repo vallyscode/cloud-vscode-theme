@@ -30,7 +30,7 @@
 
 		"input.background": "#f1f1f1",
 		"input.border": "#00638a",
-		"input.foreground": "#678f03",
+		"input.foreground": "#454545",
 		"input.placeholderForeground": "#919aa1",
 
 		"badge.foreground": "#f1f1f1",
@@ -125,6 +125,7 @@
 		"editor.background": "#f1f1f1",
 		"editor.foldBackground": "#f1f1f1",
 		"editor.lineHighlightBackground": "#ededed",
+		"editor.lineHighlightBorder": "#ededed",
 
 		"editorLineNumber.foreground": "#8c8c8c",
 		"editorLineNumber.activeForeground": "#cc6d00",
@@ -134,13 +135,17 @@
 		
 		"editorWhitespace.foreground": "#d1d5da",
 
+		"editorCodeLens.foreground": "#919aa1",
+
 		"editorCursor.foreground": "#00638a",
 		"editorCursor.background": "#f1f1f1",
 
-		"editor.findMatchBorder": "#008abd",
-		"editor.findMatchBackground": "#008abd",
+
+		"editor.findMatchBorder": "#54aacc",
+		"editor.findMatchBackground": "#54aacc",
 		"editor.findMatchHighlightBackground": "#fffbc4",
 		"editor.findMatchHighlightBorder": "#fffbc4",
+
 
 		"editor.inactiveSelectionBackground": "#3389ab28",
 		"editor.selectionBackground": "#3389ab60",
@@ -148,8 +153,8 @@
 		"editor.selectionHighlightBorder": "#fffbc4",
 		"editor.wordHighlightBackground": "#fffbc4",
 		"editor.wordHighlightStrongBackground": "#34d05800",
-		"editor.wordHighlightBorder": "#24943e99",
-		"editor.wordHighlightStrongBorder": "#24943e50",
+		"editor.wordHighlightBorder": "#fffbc4",
+		"editor.wordHighlightStrongBorder": "#fffbc4",
 		"editor.stackFrameHighlightBackground": "#fffbc4",
 		"editor.focusedStackFrameHighlightBackground": "#fffbc4",
 
@@ -160,7 +165,7 @@
 		"editorWidget.border": "#00638a",
 
 		"editorSuggestWidget.highlightForeground": "#00638a",
-		"editorSuggestWidget.selectedBackground": "#ededed",
+		"editorSuggestWidget.selectedBackground": "#e0e0e0",
 		
 		"editorGutter.modifiedBackground": "#bf7000",
 		"editorGutter.addedBackground": "#22863a",
@@ -225,7 +230,6 @@
 
 		"welcomePage.buttonBackground": "#f1f1f1",
 		"welcomePage.buttonHoverBackground": "#f1f1f1"
-
 	},
 	"semanticHighlighting": true,
 	"tokenColors": [
