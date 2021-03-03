@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.0.8]
+#### Changed
+- Added Java related styling
+
 ## [0.0.7]
 #### Changed
 - Input foreground

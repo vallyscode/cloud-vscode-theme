@@ -152,7 +152,7 @@
 		"editor.selectionHighlightBackground": "#fffbc4",
 		"editor.selectionHighlightBorder": "#fffbc4",
 		"editor.wordHighlightBackground": "#fffbc4",
-		"editor.wordHighlightStrongBackground": "#34d05800",
+		"editor.wordHighlightStrongBackground": "#fffbc4",
 		"editor.wordHighlightBorder": "#fffbc4",
 		"editor.wordHighlightStrongBorder": "#fffbc4",
 		"editor.stackFrameHighlightBackground": "#fffbc4",
@@ -637,6 +637,46 @@
 			"scope": "meta.diff.header.to-file",
 			"settings": {
 				"foreground": "#434343"
+			}
+		},
+		{
+			"name": "Java: Annotations",
+			"scope": ["storage.type.annotation.java"],
+			"settings": {
+				"foreground": "#7d57c2",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Java: This",
+			"scope": "variable.language.this.java",
+			"settings": {
+				"foreground": "#008080",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "Java: Variable",
+			"scope": "variable.other.object.property.java",
+			"settings": {
+				"foreground": "#454545",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Java: Variable Other",
+			"scope": "variable.other.definition.java",
+			"settings": {
+				"foreground": "#454545",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Java: Package",
+			"scope": "storage.modifier.package.java",
+			"settings": {
+				"foreground": "#008abd",
+				"fontStyle": "bold"
 			}
 		}
 	]
