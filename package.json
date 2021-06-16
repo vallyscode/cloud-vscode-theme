@@ -2,7 +2,7 @@
     "name": "cloud-vscode-theme",
     "displayName": "Cloud Theme",
     "description": "Cloud theme for vscode",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "publisher": "vallyscode",
     "icon": "logo.png",
     "repository": {

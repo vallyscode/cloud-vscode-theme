@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.0.9]
+#### Changed
+- yaml styling
+- sql styling
+- xml styling
+
 ## [0.0.8]
 #### Changed
 - Added Java related styling
