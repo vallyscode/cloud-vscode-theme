@@ -5,6 +5,10 @@
     "version": "0.0.9",
     "publisher": "vallyscode",
     "icon": "logo.png",
+    "galleryBanner": {
+        "color": "#f1f1f1",
+        "theme": "light"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/vallyscode/cloud-vscode-theme.git"
@@ -15,6 +19,11 @@
     "categories": [
         "Themes"
     ],
+    "keywords": ["theme", "light", "cloud", "cloud light"],
+    "homepage": "https://github.com/vallyscode/cloud-vscode-theme",
+    "bugs": {
+        "url": "https://github.com/vallyscode/cloud-vscode-theme/issues"
+    },
     "contributes": {
         "themes": [
             {
