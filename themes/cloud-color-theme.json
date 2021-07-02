@@ -741,6 +741,19 @@
                 "foreground": "#008abd",
                 "fontStyle": "italic"
             }
+        },
+        {
+            "name": "Python: Function decorator",
+            "scope": [
+                "entity.name.function.decorator.python",
+                "support.type.python",
+                "meta.function.decorator.python",
+                "punctuation.definition.decorator.python"
+            ],
+            "settings": {
+                "foreground": "#7d57c2",
+                "fontStyle": "bold"
+            }
         }
     ]
 }

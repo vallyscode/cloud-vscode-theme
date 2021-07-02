@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.0.10]
+#### Changed
+- Python function decorator color
+
 ## [0.0.9]
 #### Changed
 - yaml styling
