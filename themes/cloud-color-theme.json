@@ -227,6 +227,13 @@
         "settings.dropdownBackground": "#f1f1f1",
         "settings.dropdownListBorder": "#00638a",
 
+        "editorBracketHighlight.foreground1": "#00638a",
+        "editorBracketHighlight.foreground2": "#7d57c2",
+        "editorBracketHighlight.foreground3": "#008080",
+        "editorBracketHighlight.foreground4": "#008abd",
+        "editorBracketHighlight.foreground5": "#2e994c",
+        "editorBracketHighlight.foreground6": "#cc6d00",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
 
         "welcomePage.buttonBackground": "#f1f1f1",
         "welcomePage.buttonHoverBackground": "#f1f1f1"

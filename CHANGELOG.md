@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.0.11]
+- Added editor bracket highlight colors
+
 ## [0.0.10]
 #### Changed
 - Python function decorator color
