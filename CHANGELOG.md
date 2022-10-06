@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.0.12]
+- Changed editor active link color
+
 ## [0.0.11]
 - Added editor bracket highlight colors
 

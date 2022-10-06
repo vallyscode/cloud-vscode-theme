@@ -129,6 +129,7 @@
 
         "editorLineNumber.foreground": "#8c8c8c",
         "editorLineNumber.activeForeground": "#cc6d00",
+        "editorLink.activeForeground": "#4b83cd",
         
         "editorIndentGuide.background": "#eff2f6",
         "editorIndentGuide.activeBackground": "#d7dbe0",
@@ -541,7 +542,7 @@
             "name": "Markup: Link",
             "scope": "meta.link",
             "settings": {
-                "foreground": "#4B83CD"
+                "foreground": "#4b83cd"
             }
         },
         {
