@@ -1,36 +1,41 @@
 {
-    "name": "cloud-vscode-theme",
-    "displayName": "Cloud Theme",
-    "description": "Cloud theme for vscode",
-    "version": "0.0.12",
-    "publisher": "vallyscode",
-    "icon": "logo.png",
-    "galleryBanner": {
-        "color": "#f1f1f1",
-        "theme": "light"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/vallyscode/cloud-vscode-theme.git"
-    },
-    "engines": {
-        "vscode": "^1.52.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": ["theme", "light", "cloud", "cloud light"],
-    "homepage": "https://github.com/vallyscode/cloud-vscode-theme",
-    "bugs": {
-        "url": "https://github.com/vallyscode/cloud-vscode-theme/issues"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Cloud",
-                "uiTheme": "vs",
-                "path": "./themes/cloud-color-theme.json"
-            }
-        ]
-    }
+  "name": "cloud-theme",
+  "displayName": "Cloud Theme",
+  "description": "Cloud theme with light and dark palette.",
+  "publisher": "vallyscode",
+  "version": "0.0.13",
+  "icon": "images/logo.png",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "galleryBanner": {
+    "color": "#f1f1f1",
+    "theme": "light"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vallyscode/cloud-vscode-theme.git"
+  },
+  "keywords": [ "theme", "light", "cloud", "cloud light" ],
+  "homepage": "https://github.com/vallyscode/cloud-vscode-theme",
+  "bugs": {
+    "url": "https://github.com/vallyscode/cloud-vscode-theme/issues"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cloud Light",
+        "uiTheme": "vs",
+        "path": "./themes/cloud-light-color-theme.json"
+      },
+      {
+        "label": "Cloud Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cloud-dark-color-theme.json"
+      }
+    ]
+  }
 }
