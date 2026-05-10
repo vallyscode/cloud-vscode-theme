@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+  <!ELEMENT root (strings, numbers, booleans, dates, lists, objects)>
+  <!ELEMENT strings (string*)>
+  <!ELEMENT string (#PCDATA)>
+  <!ELEMENT numbers (number*)>
+  <!ELEMENT number (#PCDATA)>
+  <!ELEMENT booleans (boolean*)>
+  <!ELEMENT boolean (#PCDATA)>
+  <!ELEMENT dates (date*)>
+  <!ELEMENT date (#PCDATA)>
+  <!ELEMENT lists (list*)>
+  <!ELEMENT list (item*)>
+  <!ELEMENT item (#PCDATA)>
+  <!ELEMENT objects (object*)>
+  <!ELEMENT object (property*)>
+  <!ELEMENT property (name, value)>
+  <!ATTLIST property name CDATA #REQUIRED>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT value ANY>
+  <!ENTITY greeting "Hello, World!">
+  <!ENTITY copyright "© 2026">
+]>
+
+<root xmlns="http://example.com/ns1" 
+      xmlns:ex="http://example.com/ns2"
+      xml:lang="en"
+      xml:space="preserve">
+
+  <!-- Text content types -->
+  <strings>
+    <string>Plain text</string>
+    <string>Quoted "text" &amp; entities</string>
+    <string>&greeting;</string>
+    <string>CDATA section <![CDATA[<script>alert("safe")</script>]]> </string>
+  </strings>
+
+  <!-- Numeric types -->
+  <numbers>
+    <number>42</number>
+    <number>-3.14159</number>
+    <number>1e10</number>
+  </numbers>
+
+  <!-- Boolean-like (convention) -->
+  <booleans>
+    <boolean>true</boolean>
+    <boolean>false</boolean>
+  </booleans>
+
+  <!-- Dates/Times -->
+  <dates>
+    <date>2026-05-09</date>
+    <date>2026-05-09T22:15:00Z</date>
+  </dates>
+
+  <!-- Lists/Arrays -->
+  <lists>
+    <list>
+      <item>apple</item>
+      <item>banana</item>
+      <item>cherry</item>
+    </list>
+    <list type="numbers">
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+    </list>
+  </lists>
+
+  <!-- Objects/Complex structures -->
+  <objects>
+    <object id="person1">
+      <property name="name">Alice</property>
+      <property name="age">30</property>
+      <property name="active">
+        <boolean>true</boolean>
+      </property>
+    </object>
+    
+    <object id="config">
+      <property name="host">localhost</property>
+      <property name="port">8080</property>
+      <property name="debug">
+        <boolean>false</boolean>
+      </property>
+    </object>
+  </objects>
+
+  <!-- Namespaces -->
+  <ex:namespace_example ex:attr="value">
+    Default namespace content
+    <ex:nested>Namespaced child</ex:nested>
+  </ex:namespace_example>
+
+  <!-- Mixed content -->
+  <mixed>
+    Text before 
+    <emphasis>important</emphasis> 
+    text after
+    <code>inline &lt;code&gt;</code>
+  </mixed>
+
+  <!-- Processing instructions -->
+  <?css-stylesheet href="styles.css" type="text/css"?>
+
+  <!-- Empty elements -->
+  <empty-element/>
+
+  <!-- Attributes (multiple types) -->
+  <attributes 
+    id="unique1"
+    class="multiple classes"
+    data-value='42'
+    enabled="true"
+    style="color: red;"
+    xmlns:custom="http://custom/ns"/>
+
+  <!-- Comments -->
+  <!-- This is a single-line comment -->
+  <!--
+    Multi-line
+    comment
+  -->
+
+</root>

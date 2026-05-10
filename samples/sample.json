@@ -1,0 +1,27 @@
+{
+  "string": "Hello, world",
+  "number_int": 42,
+  "number_float": 3.14159,
+  "boolean_true": true,
+  "boolean_false": false,
+  "null_value": null,
+
+  "object": {
+    "nested_string": "inside object",
+    "nested_number": 100,
+    "nested_array": [1, 2, 3]
+  },
+
+  "array": [
+    "text",
+    123,
+    4.56,
+    true,
+    false,
+    null,
+    {
+      "array_object_key": "value"
+    },
+    [ "nested", "array" ]
+  ]
+}

@@ -478,9 +478,9 @@
     "tab.unfocusedInactiveForeground": "#7c6f64",
     // terminal
     "terminal.ansiBlack": "#32302f",
-    "terminal.ansiBlue": "#7daea3",
+    "terminal.ansiBlue": "#00638a",
     "terminal.ansiBrightBlack": "#928374",
-    "terminal.ansiBrightBlue": "#7daea3",
+    "terminal.ansiBrightBlue": "#008abd",
     "terminal.ansiBrightCyan": "#89b482",
     "terminal.ansiBrightGreen": "#a9b665",
     "terminal.ansiBrightMagenta": "#d3869b",
@@ -949,10 +949,10 @@
         }
     },
     {
-        "name": "Html orange",
+        "name": "Html blue",
         "scope": "entity.name.tag.html, entity.name.tag.xml, entity.name.tag.localname.xml",
         "settings": {
-            "foreground": "#cc6d00"
+            "foreground": "#00638a"
         }
     },
     {
@@ -1125,10 +1125,10 @@
         }
     },
     {
-        "name": "JavaScript orange",
+        "name": "JavaScript blue",
         "scope": "storage.type.js, storage.type.function.arrow.js",
         "settings": {
-            "foreground": "#cc6d00"
+            "foreground": "#00638a"
         }
     },
     {
@@ -2464,10 +2464,10 @@
         }
     },
     {
-        "name": "JSON orange",
+        "name": "JSON blue",
         "scope": "support.type.property-name.json",
         "settings": {
-            "foreground": "#cc6d00"
+            "foreground": "#00638a"
         }
     },
     {

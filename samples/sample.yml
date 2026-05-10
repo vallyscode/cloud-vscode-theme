@@ -1,0 +1,108 @@
+# Scalars
+string_plain: hello
+string_quoted: "hello world"
+
+# Multiline strings (block scalars)
+string_literal_default: |
+  line 1
+  line 2
+
+string_literal_strip: |-
+  line 1
+  line 2
+
+string_literal_keep: |+
+  line 1
+  line 2
+
+
+string_folded_default: >
+  line 1
+  line 2
+
+string_folded_strip: >-
+  line 1
+  line 2
+
+string_folded_keep: >+
+  line 1
+  line 2
+
+
+# Numbers
+integer: 42
+float: 3.14
+float_exp: 1.2e3
+
+# Booleans
+boolean_true: true
+boolean_false: false
+
+# Nulls
+null_value: null
+null_alt: ~
+
+# Special scalars
+timestamp: 2024-01-01T12:34:56Z
+date: 2024-01-01
+
+binary: !!binary |
+  SGVsbG8gV29ybGQ=
+
+# Collections
+sequence:
+  - one
+  - two
+  - three
+
+mapping:
+  key1: value1
+  key2: value2
+
+# Nested structures
+nested:
+  list_of_maps:
+    - name: Alice
+      age: 30
+    - name: Bob
+      age: 25
+
+# Mixed types
+mixed_array:
+  - text
+  - 123
+  - 4.56
+  - true
+  - null
+  - { inline: object }
+  - [ nested, array ]
+
+# Anchors and aliases
+defaults: &defaults
+  host: localhost
+  port: 8080
+
+service1:
+  <<: *defaults
+  name: service1
+
+service2:
+  <<: *defaults
+  name: service2
+
+# Explicit typing
+explicit_string: !!str 123
+explicit_int: !!int "42"
+explicit_float: !!float "3.14"
+explicit_bool: !!bool "true"
+
+# YAML-specific types
+set_example: !!set
+  ? a
+  ? b
+  ? c
+
+omap_example: !!omap
+  - a: 1
+  - b: 2
+  - c: 3

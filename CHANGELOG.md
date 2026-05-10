@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.0.14]
+- Updated the light theme
+
 ## [0.0.13]
 - Changed liht there and added a dark one that is a modification of gruvbox material dark
 

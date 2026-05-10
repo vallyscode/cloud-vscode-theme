@@ -6,7 +6,7 @@
   "version": "0.0.13",
   "icon": "logo.png",
   "engines": {
-    "vscode": "^1.110.0"
+    "vscode": "^1.52.0"
   },
   "galleryBanner": {
     "color": "#f1f1f1",

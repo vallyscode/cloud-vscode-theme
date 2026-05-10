@@ -1,0 +1,79 @@
+# Comments (single line and multi-line)
+# This is a comment
+
+# Strings (basic, literal, multi-line)
+basic_string = "I'm a string. \"Escaped\" quotes work."
+literal_string = 'C:\Users\nodejs\templates'
+multiline_basic = """
+Roses are red
+Violets are blue
+"""
+multiline_literal = '''
+This is a multi-line
+literal string - no escaping
+'''
+
+# Numbers (integers, floats, hex, octal, binary, inf, nan)
+int_positive = 42
+int_negative = -17
+int_zero = 0
+hex_num = 0xDEADBEEF
+octal_num = 0o755
+binary_num = 0b11010110
+float_normal = 3.14159
+float_exp = 5e+22
+float_underscore = 224_617.445_991
+inf_pos = inf
+inf_neg = -inf
+nan_val = nan
+
+# Booleans
+bool_true = true
+bool_false = false
+
+# Datetimes (offset, local date, local time, local datetime)
+offset_datetime = 1979-05-27T07:32:00Z
+offset_datetime_precise = 1979-05-27T00:32:00.999999-07:00
+local_date = 1979-05-27
+local_time = 07:32:00
+local_datetime = 1979-05-27T07:32:00
+
+# Arrays (homogeneous, nested, mixed)
+simple_array = [ 1, 2, 3 ]
+nested_array = [ ["delta", "phi"], [3.14] ]
+mixed_array = [ "text", 123, true, null, [1, 2] ]
+
+# Inline tables
+inline_table = { cpu = 79.5, "case" = 72.0 }
+
+# Tables (nested tables)
+[database]
+server = "192.168.1.1"
+enabled = true
+ports = [ 8000, 8001, 8002 ]
+connection_max = 5000
+
+[servers.alpha]
+ip = "10.0.0.1"
+dc = "eqdc10"
+roles = ["frontend"]
+
+[servers.beta]
+ip = "10.0.0.2"
+dc = "eqdc10"
+roles = ["backend"]
+
+# Array of tables
+[[users]]
+name = "Alice"
+age = 30
+active = true
+
+[[users]]
+name = "Bob"
+age = 25
+active = false
+
+# Dotted keys (alternative to nested tables)
+owner.name = "Tom Preston-Werner"
+owner.dob = 1979-05-27T07:32:00-08:00

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metadata types -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Complete HTML types example">
+  <title>Complete HTML Elements Demo</title>
+  
+  <!-- Link types -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  
+  <style>
+    /* Embedded CSS */
+    .demo { margin: 1rem 0; }
+  </style>
+</head>
+
+<body>
+  <!-- Text content -->
+  <h1>Headings: h1-h6</h1>
+  <h2>Secondary heading</h2>
+  <h3>Tertiary heading</h3>
+  <h4>h4</h4>
+  <h5>h5</h5>
+  <h6>h6</h6>
+  
+  <!-- Paragraphs & text-level -->
+  <p>Paragraph with <strong>strong</strong>, <em>emphasis</em>, 
+     <code>code</code>, <samp>samp</samp>, <kbd>kbd</kbd>,
+     <var>var</var>, <cite>cite</cite>, <dfn>dfn</dfn>,
+     <abbr title="HyperText Markup Language">HTML</abbr>,
+     <time datetime="2026-05-09">May 9th, 2026</time>,
+     and <a href="https://example.com">links</a>.</p>
+  
+  <!-- Lists -->
+  <h2>Lists</h2>
+  <ul>
+    <li>Unordered list item</li>
+    <li>Another item</li>
+  </ul>
+  <ol>
+    <li>Ordered list item 1</li>
+    <li>Ordered list item 2</li>
+  </ol>
+  <dl>
+    <dt>Definition term</dt>
+    <dd>Definition description</dd>
+  </dl>
+  
+  <!-- Tables -->
+  <h2>Table</h2>
+  <table>
+    <caption>Sample Table</caption>
+    <thead>
+      <tr><th>Header 1</th><th>Header 2</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Data 1</td><td>Data 2</td></tr>
+    </tbody>
+  </table>
+  
+  <!-- Forms -->
+  <h2>Form Elements</h2>
+  <form action="/submit" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    
+    <label>Hobbies:</label>
+    <input type="checkbox" name="hobby" value="coding"> Coding
+    <input type="checkbox" name="hobby" value="gaming"> Gaming
+    
+    <select name="country">
+      <optgroup label="Europe">
+        <option value="pl">Poland</option>
+        <option value="de">Germany</option>
+      </optgroup>
+    </select>
+    
+    <textarea name="message" rows="4" cols="50">Default text</textarea>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+  
+  <!-- Media -->
+  <h2>Media</h2>
+  <img src="image.jpg" alt="Sample image" width="300" height="200">
+  
+  <video width="320" height="240" controls>
+    <source src="video.mp4" type="video/mp4">
+    Your browser doesn't support video.
+  </video>
+  
+  <audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+  </audio>
+  
+  <iframe src="https://example.com" width="500" height="300"></iframe>
+  
+  <!-- Semantic HTML5 -->
+  <h2>Semantic Elements</h2>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <article>
+      <header><h3>Article Title</h3></header>
+      <section>
+        <h4>Section</h4>
+        <aside>Sidebar content</aside>
+      </section>
+    </article>
+    
+    <figure>
+      <img src="chart.png" alt="Data chart">
+      <figcaption>Chart description</figcaption>
+    </figure>
+  </main>
+  
+  <footer>
+    <p>&copy; 2026 Example Corp</p>
+  </footer>
+  
+  <!-- Interactive -->
+  <h2>Interactive Elements</h2>
+  <details>
+    <summary>Click to expand</summary>
+    Hidden content here.
+  </details>
+  
+  <progress value="70" max="100"></progress>
+  <meter value="0.6"></meter>
+  
+  <div contenteditable="true">Editable content</div>
+  
+  <!-- Script & data -->
+  <script>
+    console.log("JavaScript embedded");
+  </script>
+  <noscript>JavaScript disabled</noscript>
+  
+  <div data-custom="value" custom-attr="test">Custom attributes</div>
+</body>
+</html>
