@@ -3,7 +3,7 @@
   "displayName": "Cloud Theme",
   "description": "Cloud theme with light and dark palette.",
   "publisher": "vallyscode",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "icon": "logo.png",
   "engines": {
     "vscode": "^1.52.0"
